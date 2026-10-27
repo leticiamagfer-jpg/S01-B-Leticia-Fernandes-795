@@ -48,13 +48,13 @@ class Instrumentista
     end
   end
   
-  solista = Solista.new("herbert vianna", "guitarra")
-  acompanhador = Acompanhador.new("vital dias", "bateria")
-  regente = Regente.new("herbert vianna")
+  solista = Solista.new("john lenon", "guitarra")
+  acompanhador = Acompanhador.new("paul mcartney", "bateria")
+  regente = Regente.new("ringo star")
   
   regente.convocar(solista)
   regente.convocar(acompanhador)
-  regente.reger("os paralamas do sucesso")
+  regente.reger("beatles")
   
   regente.escalacao.each do |texto|
     puts texto
