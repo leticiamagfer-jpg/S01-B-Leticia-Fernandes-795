@@ -39,9 +39,9 @@ def initialize(nome, preco, lenda)
 end
 
 drinks = [
-  CoquetelAfterlife.new("caipirinha", 30),
-  DrinkDeLenda.new("neymarjr", 100, "neymarjr"),
-  DrinkDeLenda.new("kyogre", 60, "kyogre")
+  CoquetelAfterlife.new("cosmopolitan", 30),
+  DrinkDeLenda.new("cr7", 100, "cr7"),
+  DrinkDeLenda.new("serena", 60, "serena")
 ]
 
 drinks.each do |drink|
