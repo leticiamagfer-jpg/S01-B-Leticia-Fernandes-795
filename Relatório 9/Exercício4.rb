@@ -8,7 +8,7 @@ module Depoente
   module Detivel
 
     def ser_detido
-      puts "#{nome} foi levado para penitenciaria de coolsville."
+      puts "#{nome} foram presos"
     end
   end
   
@@ -25,7 +25,7 @@ module Depoente
     include Depoente
   
     def depor
-      puts "#{nome}: isso ai! scooby-doo-by-dooo!"
+      puts "#{nome}: eles são culpados"
     end
   end
   
@@ -35,7 +35,7 @@ module Depoente
     include Detivel
   
     def depor
-      puts "#{nome}: querem um culpado? procurem outra pessoa, eu nao tenho nada a ver com essa palhacada de maquina de monstros!"
+      puts "#{nome}: eu vi tudo"
     end
   end
   
@@ -65,11 +65,11 @@ module Depoente
     end
   end
   
-  testemunha = TestemunhaOcular.new("scooby-doo")
-  suspeito1 = SuspeitoDoCrime.new("sr wickles")
-  suspeito2 = SuspeitoDoCrime.new("patrick")
+  testemunha = TestemunhaOcular.new("dafne")
+  suspeito1 = SuspeitoDoCrime.new("dr. julianp")
+  suspeito2 = SuspeitoDoCrime.new("joao")
   
-  investigacao = Investigacao.new("misterio s/a")
+  investigacao = Investigacao.new("caso 1")
   investigacao.registrar(testemunha)
   investigacao.registrar(suspeito1)
   investigacao.registrar(suspeito2)
