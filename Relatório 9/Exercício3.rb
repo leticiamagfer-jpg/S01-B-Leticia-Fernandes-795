@@ -34,12 +34,12 @@ class PhoneWave
     end
   end
   
-  eduardo = MembroDoLab.new(1, "eduardo")
-  carlos = MembroDoLab.new(2, "carlos")
+  eduardo = MembroDoLab.new(1, "lucas")
+  carlos = MembroDoLab.new(2, "felipe")
   
   laboratorio = LaboratorioDeGadgets.new
-  laboratorio.admitir(eduardo)
-  laboratorio.admitir(carlos)
+  laboratorio.admitir(lucas)
+  laboratorio.admitir(felipe)
   laboratorio.experimento("laboratorio fechado hoje")
   
 #composicao: o phonewave pertence ao laboratório e deixa de existir com ele
